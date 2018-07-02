@@ -17,7 +17,7 @@ function getWeather() {
 
     try {city_name = intent.slots.city_name.value;} catch(err) {}
 
-    //If not city name is provided by the user, emits an error message
+    //If city name is not provided by the user, emits an error message
     if (!city_name) {
       this.emit(':tell', 'Please provide a valid city name.')
     } else {
