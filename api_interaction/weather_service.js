@@ -7,7 +7,7 @@ const options = {
   qs: {
     q: null,
     units: 'imperial', //API alows unit to be standard (Kelvin), imperial (Fahrenheit) or metric (Celsius)
-    APPID: 'b4a7ea98af44fbbb8a44438b52015bac', //Used "Weather Radar" APPID
+    APPID: //Insert your "Weather Radar" APPID here
   },
   headers: {
     'User-Agent': 'Request-Promise'
